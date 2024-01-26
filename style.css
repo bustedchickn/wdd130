@@ -1,0 +1,26 @@
+body{
+    background: #000;
+}
+
+#first {
+    color:rgb(10, 33, 53);
+    font-weight: 900;
+    font-size: 100px;
+}
+
+
+.plain {
+    font-size: 100px;
+    background-color: rgb(255, 0, 81);
+    float:left;
+    color: pink;
+    
+}
+a:hover {
+    background-color: pink;
+    
+    color: rgb(255, 0, 81);
+}
+h1 {
+    background-color: #222222;
+}
