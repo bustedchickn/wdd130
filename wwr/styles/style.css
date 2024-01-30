@@ -1,0 +1,34 @@
+body {
+    background-color: pink;
+    font-size: 100%;
+}
+header {
+    background-color: red;
+    
+}
+h1{
+    font-size: 3em;
+}
+nav{
+    text-align: center;
+    
+    font-size: 2em;
+}
+nav a{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+div.social img{
+    width:40px;
+}
+#hero{
+    background-color: bisque;
+    text-align: center;
+}

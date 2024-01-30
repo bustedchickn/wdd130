@@ -1,5 +1,5 @@
 body{
-    background: #000;
+    /*background: #000;*/
 }
 
 #first {
@@ -22,5 +22,5 @@ a:hover {
     color: rgb(255, 0, 81);
 }
 h1 {
-    background-color: #222222;
+    
 }
