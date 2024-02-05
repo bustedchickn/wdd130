@@ -1,5 +1,24 @@
 /* simple edit to see if this style will get updated */
 
+@font-face {
+    font-family: 'minecraftregular';
+    src: url('minecraftregular-webfont.woff2') format('woff2'),
+         url('minecraftregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root{
+    --heading-font: "MinecraftRegular";
+    --paragraph-font: Georgia,sans-serif, Lato;
+}
+
+p{
+    font-family: var(--paragraph-font);
+}
+
+
 
 #content{
     max-width: 1600px;
@@ -33,7 +52,7 @@ body{
     background-color: #fbfdf1; 
 }
 header{
-    background-color: #c9fbff; 
+    background-color: #009DDC; 
 }
 nav a:hover{
     background-color: #104547; 
@@ -62,7 +81,7 @@ nav a:hover{
     background-color: #dbddd1; 
 }
 footer{
-    background-color: #c9fbff; 
+    background-color: #009DDC; 
     
 }
 .logo{
@@ -76,9 +95,11 @@ footer{
 }
 footer a{
     text-decoration: none;
+    color: white;
 }
 footer p{
     font-size: 1.2em;
+    color: white;
 }
 footer p a:hover{
     text-decoration: underline;
