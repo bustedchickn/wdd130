@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: border-box;
+}
+
+#title{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.options{
+    background-color: grey;
+    max-width: 1280px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.images{
+    max-width: 300px;
+    border: 15px solid black;
+    border-radius: 50%;
+    margin: 100px 50px;
+}
+.images:hover{
+    max-width: 350px;
+    box-shadow: 2px 2px 2px 2px rgb(178, 178, 178);
+    
+    margin: 75px 25px;
+}
