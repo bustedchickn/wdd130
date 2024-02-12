@@ -10,7 +10,7 @@
 }
 
 :root{
-    --heading-font: "MinecraftRegular";
+    --heading-font: "MinecraftRegular",Georgia, serif;
     --paragraph-font: Georgia,sans-serif, Lato;
 }
 
