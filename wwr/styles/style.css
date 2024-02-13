@@ -110,7 +110,7 @@ nav a:hover{
 }
 .msg p{
     font-size: .8em;
-    padding-bottom: 15;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #009DDC; 
@@ -127,6 +127,7 @@ footer{
 }
 #hero-img{
     width: 100%;
+    
 }
 footer a{
     text-decoration: none;
