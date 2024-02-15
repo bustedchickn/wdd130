@@ -159,28 +159,36 @@
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display: grid;
-  grid-template-columns: repeat(1fr, 6);
-  grid-template-rows: repeat(1fr, 6);
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(6, 100px);
 }
 .red6 {
-  width: 100px; 
-  height: 100px; 
+  width: 400px; 
   background-color: red; 
+  height: 200px; 
 } 
 .green6 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
+  grid-column: 1/3;
+  grid-row: 5/7;
+  z-index: 1;
 } 
 .yellow6 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 400px; 
   background-color: gold; 
+  grid-column: 5/6;
+  grid-row: 3/4;
+  z-index: 1;
 } 
 .blue6 {
-  width: 100px; 
-  height: 100px; 
+  width: 400px; 
+  height: 400px; 
   background-color: blue; 
+  grid-row: 2/3;
+  grid-column: 2/3;
 } 
 
 
