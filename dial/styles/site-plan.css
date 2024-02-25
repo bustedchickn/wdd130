@@ -15,15 +15,15 @@ Fonts are separated by a | */
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #54b8ff;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #54b8ff; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #03192a;
-  --nav-link-color: #396E94;
+  --nav-link-color: #00192b;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #54b8ff;
 }
 
 
@@ -124,6 +124,12 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+nav a:active{
+    color:var(--accent1-color)
+}
+a:visited{
+    color: var(--accent1-color);
 }
 
 .sitemap {
