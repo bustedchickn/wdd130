@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        form{
+            border: 2em solid black;
+            align-content: center;
+            margin: 0px auto;
+            width: 500px;
+        }
+        label, input, textarea, button{
+            width: 300px;
+            display: block;
+            margin: 1em auto;
+        }
+        input,textarea{
+            margin-bottom: 1em;
+        }
+        label{
+            margin-bottom: 0%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>questionstions</h1>
+    <form action="thankyou.html" method="get">
+        <label for="fname">First name:</label>
+        <input id="fname" name="fname" type="text" placeholder="First name"/>
+
+        <label for="lname">*Last name:</label>
+        <input id="lname" name="lname" type="text" placeholder="Last name" required/>
+
+        <label for="question">question</label>
+        <textarea name="question" id="question" placeholder="Type ur text here..."></textarea>
+
+        <label for="number">Phone number: (XXX)XXX-XXXX</label>
+        <input type="tel" name="number" id="number" placeholder="(XXX)XXX-XXXX">
+
+        <button type="submit"> Poop your pants </button>
+    </form>
+</body>
+</html>
