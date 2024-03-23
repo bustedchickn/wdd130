@@ -210,6 +210,7 @@ footer a:hover{
 footer p{
     padding: 1em;
     padding-bottom: 0;
+    color: black;
 }
 #siteplan-button{
     padding-left: 1em;
