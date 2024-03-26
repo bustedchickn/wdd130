@@ -59,34 +59,11 @@ nav ul{
     justify-items: center;
     /* gap: 10px; */
 }
-#homevideo{
-    display: grid;
-    margin: 3em auto;
-    grid-template-columns: repeat(2,1fr);
-    max-width: 60%;
-    align-items: center;
-    justify-items: center;
-    background-color: var(--paragraph-background-color);
-    border-radius: 10px;
-    /* gap: 1em; */
-}
-#shufflelist{
-    padding: 2em;
-    line-height: 3em;
-}
-.show{
-    background-color: #13293a;
-    transition: 1s;
-}
-#shufflelist li{
-    border-radius: 10px;
-    padding-left: 1em;
-    transition: 1s;
-}
-video{
-    width: 100%;
-    padding: 5em;
-}
+
+
+
+
+
 h1#title{
     text-align: center;
     margin-top: 2em;
@@ -133,60 +110,19 @@ header{
     padding: 0%;
 }
 
-.shufflelist{
-    background-color: #fff;
+
+img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#hero{
-    max-width: 65%;
-    margin: 10em auto;
-    position: relative;
-    justify-items: center;
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-template-rows: 1fr 80px 80px;
-    align-items: center;
-}
-#hero img{
-    width: 100%;
-}
-#hero a{
-    width: 25%;
-    text-align: center;
-    justify-self: center;
-    grid-row: 3/4;
-}
-
-#library{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+div #background {
     background-color: var(--paragraph-background-color);
 }
-#topselling{
-    text-align: center;
-}
-.product-card img:hover {
-    
-    width: 102%;
-    height: 102%;
-    transition: 0.5s;
-}
 
-.product-card img{
-    width: 384px;
-    height: 500px;
-    position: relative;
-    transition: .5s;
-}
 
-#buy {
-    position: relative;
-    text-align: center;
-    margin: 6em auto;
-    margin-bottom: 500px;
-    
-}
+
+
 footer{
     background-color: var(--nav-background-color);
     font-size: small;
