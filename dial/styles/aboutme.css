@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Vast+Shadow&display=swap');
 *{
     box-sizing: border-box;
-    display: block;
 }
 
 :root {
@@ -60,7 +59,9 @@ nav ul{
     /* gap: 10px; */
 }
 
-
+nav img{
+    display: block;
+}
 
 
 
@@ -110,26 +111,60 @@ header{
     padding: 0%;
 }
 
-
-img {
-    margin-left: auto;
-    margin-right: auto;
+#content{
+    margin: 3em 4em;
 }
+
+
+#cannon {
+    margin: 0 auto;
+    grid-row: 1/4;
+    grid-column: 2/3;
+    width: 100%;
+    display: block;
+    padding: 2em;
+}
+
+h2{
+    text-align: center;
+}
+
+h6{
+    font-size: large;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h6 + ul{
+    grid-column: 1/2;
+    line-height:2em;
+    font-size: 1.25em;
+}
+
 
 div #background {
-    background-color: var(--paragraph-background-color);
+    background-color: #052035;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-
+#contact{
+    margin: 100px auto;
+    width: 10%;
+    display: block;
+    text-align: center;
+}
 
 
 footer{
     background-color: var(--nav-background-color);
     font-size: small;
+    height: 116px;
 }
 footer img{
     width: 50px;
     justify-self: right;
+    display: inline;
 }
 footer a:hover{
     background-color: var(--nav-background-color);
@@ -138,7 +173,8 @@ footer a:hover{
     width: 200px;
     margin-left: auto;
     /* margin-right: 50px;   */
-    margin-top: -50px;
+    margin-top: -65px;
+    
     
 }
 #social img{
