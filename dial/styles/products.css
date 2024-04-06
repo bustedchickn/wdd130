@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Vast+Shadow&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #2EC4B6   ;
+    --secondary-color: #FF9F1C ;
+    --accent1-color: #E71D36;
+    --accent2-color: #FDFFFC;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Vast Shadow";
+    --paragraph-font: "Roboto Slab", Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #54b8ff;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #54b8ff; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #03192a;
+    --nav-link-color: #00192b;
+    --nav-background-color: #D4AC0D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #54b8ff;
+  }
+
+
+
+body{
+    background-color: #011627;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    font-size: 1.5em;
+    font-family: var(--paragraph-font);
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 3em;
+    font-family: var(--heading-font);
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px repeat(4,1fr) 150px;
+    align-items: center;
+    justify-items: center;
+    /* gap: 10px; */
+}
+
+nav img{
+    display: block;
+}
+
+
+
+h1#title{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+nav ul li{
+    border: 0.1em black solid;
+    margin:0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    font-size: 2em;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    
+    /* padding: em; */
+}
+.textbutton{
+    padding: 1em;
+    
+}
+
+
+
+
+a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+header{
+    margin-top: 0px;
+}
+.page{
+    margin: 0%;
+    padding: 0%;
+}
+
+#shelf{
+    margin: 6em auto;
+    width: 916px;
+    display:block;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr 100px;
+    grid-template-rows: 90px 100px 115px 100px;
+    justify-items: center;
+    position: relative;
+}
+.shelved-product{
+    height: 150px;
+    justify-items: center;
+    width: 100%;
+    transition: 0.3s;
+}
+.shelved-product img{
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+#theater{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#kitchen{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+#static{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+#dynamic{
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.product-description{
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    text-align: center;
+    padding: 1em;
+    /* margin-top: -150px; */
+    color: rgba(255, 255, 255, 0);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.shelved-product:hover{
+    background-color: rgba(0, 0, 0);
+    width: 238.6px;
+    height: 298.3px;
+    z-index: 1;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px 3px;
+}
+
+.shelved-product:hover .product-description {
+    color: white;
+    opacity: 1; /* Show description on hover */
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px 3px;
+}
+
+.product-description:hover{
+    color: white;
+}
+
+#outside{
+    display: block;
+    position: relative;
+    margin: 400px auto;
+    margin-bottom: 200px;
+    width: fit-content;
+    text-align: center;
+}
+
+#outside img{
+    justify-self: center;
+    margin: 0px auto;
+    width: 175px;
+}
+
+
+#background{
+    z-index: -1;
+    position: absolute;
+}
+
+
+
+footer{
+    background-color: var(--nav-background-color);
+    font-size: small;
+    height: 116px;
+}
+footer img{
+    width: 50px;
+    justify-self: right;
+    display: inline;
+}
+footer a:hover{
+    background-color: var(--nav-background-color);
+}
+#social{
+    width: 200px;
+    margin-left: auto;
+    /* margin-right: 50px;   */
+    margin-top: -65px;
+    
+    
+}
+#social img{
+    margin: 0.3em;
+}
+footer p{
+    padding: 1em;
+    padding-bottom: 0;
+    color: black;
+}
+#siteplan-button{
+    padding-left: 1em;
+}
